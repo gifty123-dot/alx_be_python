@@ -1,0 +1,1 @@
+This repository is to practice the basic operations in python taught to us on week 1. 
