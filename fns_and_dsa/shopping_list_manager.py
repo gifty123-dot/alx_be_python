@@ -28,7 +28,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            Item = input("Enter the  item to add:    ")
+            Item = input(" Enter the  item to add: ")
             add(shopping_list, Item)
         elif choice == '2':
             Item = input("So sad to see you won't be purchasing these items")
