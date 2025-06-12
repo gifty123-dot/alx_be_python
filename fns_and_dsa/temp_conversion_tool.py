@@ -19,7 +19,7 @@ def main():
     elif Choice == "Fahrenheit":
         convert_to_celsius(Temperature)
     else:
-        print("Please enter a numeric value. ")
+        print("Invalid temperature. Please enter a numeric value. ")
 
 if __name__ == "__main__":
     main()
