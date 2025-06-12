@@ -15,3 +15,9 @@ def display(shopping_list):
         print("The Items in your shopping lists are:")
         for items in shopping_list:
             print("-", items)
+def display_menu():
+    print("Shopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View List")
+    print("4. Exit")
