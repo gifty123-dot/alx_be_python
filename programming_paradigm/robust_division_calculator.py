@@ -1,7 +1,7 @@
-def safe_divide(numerator_string, demoninator_string):
+def safe_divide(numerator_string, denominator_string):
     try:
         numerator = float(numerator_string)
-        demoninator = float(demoninator_string)
+        denominator = float(denominator_string)
         result = numerator / demoninator 
         return f"The result is:{result}"
     except ValueError:
