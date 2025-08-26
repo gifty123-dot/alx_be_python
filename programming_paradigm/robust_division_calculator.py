@@ -1,8 +1,8 @@
-def safe_divide(numerator_string, denominator_string):
+def safe_divide(numerator, denominator):
     try:
-        numerator = float(numerator_string)
-        denominator = float(denominator_string)
-        result = numerator / demoninator 
+        numerator_number = float(numerator)
+        denominator_number = float(denominator)
+        result = numerator_number / demoninator_number 
         return f"The result is:{result}"
     except ValueError:
         return "Error: Please provide valid numbers."
